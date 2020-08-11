@@ -1,6 +1,6 @@
 //package com.example.batchprocessing.Listeners;
 //
-//import com.example.batchprocessing.Domain.Person;
+//import com.example.batchprocessing.Domain.Customer;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 //import org.springframework.batch.core.BatchStatus;
@@ -28,7 +28,7 @@
 //			log.info("!!! JOB FINISHED! Time to verify the results");
 //
 //			jdbcTemplate.query("SELECT first_name, last_name FROM people",
-//				(rs, row) -> new Person(
+//				(rs, row) -> new Customer(
 //					rs.getString(1),
 //					rs.getString(2))
 //			).forEach(person -> log.info("Found <" + person + "> in the database."));

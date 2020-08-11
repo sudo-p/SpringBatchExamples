@@ -14,6 +14,13 @@ public class JobsConfig {
 
     @Autowired
     JobRegistry jobRegistry;
+
+    @Bean
+    public JobRegistryBeanPostProcessor jobRegistryBeanPostProcessor() {
+        JobRegistryBeanPostProcessor postProcessor = new JobRegistryBeanPostProcessor();
+        postProcessor.setJobRegistry(jobRegistry);
+        return postProcessor;
+    }
 //
 //    @Autowired
 //    ApplicationContextFactory[] applicationContextFactories;
@@ -50,10 +57,4 @@ public class JobsConfig {
 //
 //    }
 
-    @Bean
-    public JobRegistryBeanPostProcessor jobRegistryBeanPostProcessor() {
-        JobRegistryBeanPostProcessor postProcessor = new JobRegistryBeanPostProcessor();
-        postProcessor.setJobRegistry(jobRegistry);
-        return postProcessor;
-    }
 }

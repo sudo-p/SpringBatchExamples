@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,21 +23,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d79fded-953a-48fc-8b61-4288017ddbc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/ImportFromCSVtoTableSampleWithSkipDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ecwid_consul_consul_api_1_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_consul_config_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_consul_core_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_config_1_3_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringLabs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringLabs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/ConfigurationProperties/MyProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/ConfigurationProperties/MyProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Controllers/DistributedPropertiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Controllers/DistributedPropertiesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/EntryPoint/SkippableExceptionDuringWriteSampleRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/EntryPoint/SkippableExceptionDuringWriteSampleRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Adapters/LocalDateTimeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Adapters/LocalDateTimeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Config/JobsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Config/JobsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Controllers/RunARestartJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Controllers/RunARestartJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/CustomExceptions/MissingUsernameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/CustomExceptions/MissingUsernameException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/CustomExceptions/NegativeAmountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/CustomExceptions/NegativeAmountException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Domain/OldCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Domain/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Domain/Trade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Domain/Trade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Domain/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Domain/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/EntryPoint/FixedLengthFileReaderExampleRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/EntryPoint/FixedLengthFileReaderExampleRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/ItemProcessors/PersonItemProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/ItemProcessors/PersonItemProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/batch-processing-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/ConfigurationProperties/MyProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/Controllers/DistributedPropertiesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/EntryPoint/SkippableExceptionDuringWriteSampleRun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/ItemReaders/FilesInDirectoryItemReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/ItemReaders/FilesInDirectoryItemReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/ItemWriters/DummyItemWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/ItemWriters/DummyItemWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/BatchConfiguration1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/ConditionalFlowSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/ConditionalFlowSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/FixedLengthFileReaderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/FixedLengthFileReaderExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/PartitionJobSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/PartitionJobSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/RestartSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/RestartSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/SkippableExceptionDuringProcessSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/SkippableExceptionDuringProcessSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/SkippableExceptionDuringReadSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/SkippableExceptionDuringReadSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/SkippableExceptionDuringWriteSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/SkippableExceptionDuringWriteSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/TaskletSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/JobConfigurations/TaskletSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Listeners/JobCompletionNotificationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Listeners/JobCompletionNotificationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Listeners/JobResultListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Listeners/JobResultListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Listeners/StepItemReadListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Listeners/StepItemReadListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Mappers/CustomerRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Mappers/CustomerRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/OutputLogs/RetrySampleOutput" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/OutputLogs/SkippableExceptionDuringProcessSampleOutput" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/OutputLogs/SkippableExceptionDuringReadSampleOutput" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/OutputLogs/SkippableExceptionDuringWriteSampleOutput" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Partitioners/ColumnRangePartitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Partitioners/ColumnRangePartitioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Tasklets/MyTaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Tasklets/MyTaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Tasklets/MyTaskThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Tasklets/MyTaskThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Tasklets/MyTaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/Tasklets/MyTaskTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/skipPolicy/ExceptionSkipPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchprocessing/skipPolicy/ExceptionSkipPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sample-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sample-data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema-all.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema-all.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/Adapters/LocalDateTimeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/Config/JobsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/Config/JobsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/CustomExceptions/MissingUsernameException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/CustomExceptions/NegativeAmountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/Domain/Customer$CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/Domain/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/Domain/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/Domain/Trade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/Domain/Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/EntryPoint/FixedLengthFileReaderExampleRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/ItemProcessors/PersonItemProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/JobConfigurations/FixedLengthFileReaderExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/JobConfigurations/SkippableExceptionDuringWriteSample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/JobConfigurations/SkippableExceptionDuringWriteSample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/JobConfigurations/SkippableExceptionDuringWriteSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/JobConfigurations/SkippableExceptionDuringWriteSample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/batchprocessing/skipPolicy/ExceptionSkipPolicy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample-data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/schema-all.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/schema-all.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sudo-p-spring-batch-labs-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sudo-p-spring-batch-labs-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sudo-p-spring-batch-labs-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/sudo-p-spring-batch-labs-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +122,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\prana\.m2\wrapper\dists\apache-maven-3.3.9-bin\2609u9g41na2l7ogackmif6fj2\apache-maven-3.3.9" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1dprsAgJbLV7OMwnAIZ9Tkl3kkY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -63,26 +146,56 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Practice Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.batchprocessing.Repositories" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\development\LocalLabs\SpringLabs\@Master\src\main\resources" />
+      <recent name="C:\development\LocalLabs\SpringLabs\@Master\src\main\java\com\example\batchprocessing\Repositories" />
+      <recent name="C:\development\LocalLabs\SpringLabs\@Master\src\main\java\com\example\batchprocessing\Domain" />
       <recent name="C:\development\LocalLabs\SpringLabs\gs-batch-processing\complete\src\main\java\com\example\batchprocessing\Config" />
       <recent name="C:\development\LocalLabs\SpringLabs\gs-batch-processing\complete\src\main\java\com\example\batchprocessing\ConfigurationProperties" />
-      <recent name="C:\development\LocalLabs\SpringLabs\gs-batch-processing\complete\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.batchprocessing.Listeners" />
+      <recent name="com.example.batchprocessing.ItemWriters" />
+      <recent name="com.example.batchprocessing.ItemProcessors" />
       <recent name="com.example.batchprocessing.EntryPoint" />
       <recent name="com.example.batchprocessing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\development\LocalLabs\SpringLabs\@Master\src\main\java\com\example\batchprocessing\Domain" />
       <recent name="C:\development\LocalLabs\SpringLabs\@Master\src\main\resources" />
       <recent name="C:\development\MyLabs\SpringLabs\gs-batch-processing\complete\src\main\java\com\example\batchprocessing\OutputLogs" />
       <recent name="C:\development\MyLabs\SpringLabs\gs-batch-processing\complete\src\main\java\com\example\batchprocessing\EntryPoint" />
       <recent name="C:\development\MyLabs\SpringLabs\gs-batch-processing\complete\src\main\resources\input" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.batchprocessing.EntryPoint.Main" />
+      <module name="SpringLabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.batchprocessing.EntryPoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -118,41 +231,57 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="219" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593267065918" />
-    <state x="327" y="191" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594257966548">
+    <state x="327" y="191" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594540786672">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="327" y="191" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594257966548" />
-    <state x="496" y="89" key="FileChooserDialogImpl" timestamp="1594086602525">
+    <state x="327" y="191" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594540786672" />
+    <state x="527" y="18" key="#com.intellij.ide.util.MemberChooser" timestamp="1594431914208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="496" y="89" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594086602525" />
-    <state width="1481" height="165" key="GridCell.Tab.0.bottom" timestamp="1594030911677">
+    <state x="527" y="18" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594431914208" />
+    <state x="435" y="138" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1594349644344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="165" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594030911677" />
-    <state width="1481" height="165" key="GridCell.Tab.0.center" timestamp="1594030911677">
+    <state x="435" y="138" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1594349644344" />
+    <state x="481" y="284" width="605" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594349645737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="165" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594030911677" />
-    <state width="1481" height="165" key="GridCell.Tab.0.left" timestamp="1594030911677">
+    <state x="481" y="284" width="605" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1594349645737" />
+    <state x="496" y="89" key="FileChooserDialogImpl" timestamp="1596075249690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="165" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594030911677" />
-    <state width="1481" height="165" key="GridCell.Tab.0.right" timestamp="1594030911677">
+    <state x="496" y="89" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596075249690" />
+    <state width="1481" height="331" key="GridCell.Tab.0.bottom" timestamp="1595920049902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="165" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594030911677" />
-    <state x="183" y="0" key="Maven.ArtifactSearchDialog" timestamp="1593312405410">
+    <state width="1481" height="331" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595920049902" />
+    <state width="1481" height="331" key="GridCell.Tab.0.center" timestamp="1595920049902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="183" y="0" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1593312405410" />
-    <state x="145" y="0" key="SettingsEditor" timestamp="1594260311507">
+    <state width="1481" height="331" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595920049902" />
+    <state width="1481" height="331" key="GridCell.Tab.0.left" timestamp="1595920049902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="145" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594260311507" />
-    <state x="341" y="0" width="840" height="822" key="search.everywhere.popup" timestamp="1593924877846">
+    <state width="1481" height="331" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595920049902" />
+    <state width="1481" height="331" key="GridCell.Tab.0.right" timestamp="1595920049902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="341" y="0" width="840" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593924877846" />
+    <state width="1481" height="331" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595920049902" />
+    <state x="183" y="0" key="Maven.ArtifactSearchDialog" timestamp="1594607947697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="183" y="0" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1594607947697" />
+    <state x="145" y="0" key="SettingsEditor" timestamp="1596008621832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="145" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596008621832" />
+    <state x="36" y="0" key="new project wizard" timestamp="1594979315171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="36" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594979315171" />
+    <state x="341" y="0" width="840" height="822" key="search.everywhere.popup" timestamp="1595728576671">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="0" width="840" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595728576671" />
   </component>
 </project>

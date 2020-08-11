@@ -1,4 +1,6 @@
+INSERT INTO people VALUES ('1', 'John', 'Doe');
 INSERT INTO customer VALUES ('1', 'John', 'Doe', '10-10-1952 10:10:10');
+INSERT INTO people VALUES ('2', 'Amy', 'Eugene');
 INSERT INTO customer VALUES ('2', 'Amy', 'Eugene', '05-07-1985 17:10:00');
 INSERT INTO customer VALUES ('3', 'Laverne', 'Mann', '11-12-1988 10:10:10');
 INSERT INTO customer VALUES ('4', 'Janice', 'Preston', '19-02-1960 10:10:10');

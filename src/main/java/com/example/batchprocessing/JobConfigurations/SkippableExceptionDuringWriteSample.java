@@ -31,7 +31,7 @@ public class SkippableExceptionDuringWriteSample {
     }
 
     @Bean
-    public ItemReader<Integer> itemReader() {
+    public ItemReader<Integer> itemReaderSkipWrite() {
         return new ListItemReader<Integer>(Arrays.asList(1, 2, 3, 4, 5, 6,7,8,9)) {
             @Override
             public Integer read() {
@@ -43,7 +43,7 @@ public class SkippableExceptionDuringWriteSample {
     }
 
     @Bean
-    public ItemProcessor<Integer, Integer> itemProcessor() {
+    public ItemProcessor<Integer, Integer> itemProcessorSkipWrite() {
         return item -> {
             System.out.println("processing item = " + item);
             return item;
@@ -51,7 +51,7 @@ public class SkippableExceptionDuringWriteSample {
     }
 
     @Bean
-    public ItemWriter<Integer> itemWriter() {
+    public ItemWriter<Integer> itemWriteSkipWrite() {
         return items -> {
             System.out.println("About to write chunk: " + items);
             for (Integer item : items) {
@@ -65,12 +65,12 @@ public class SkippableExceptionDuringWriteSample {
     }
 
     @Bean
-    public Step step() {
+    public Step stepSkipWrite() {
         return this.stepBuilderFactory.get("step")
                 .<Integer, Integer>chunk(3)
-                .reader(itemReader())
-                .processor(itemProcessor())
-                .writer(itemWriter())
+                .reader(itemReaderSkipWrite())
+                .processor(itemProcessorSkipWrite())
+                .writer(itemWriteSkipWrite())
                 .faultTolerant()
                 .skip(IllegalArgumentException.class)
                 .skipLimit(10)
@@ -82,7 +82,7 @@ public class SkippableExceptionDuringWriteSample {
     @Bean
     public Job skippableExceptionDuringWriteSampleJob() {
         return this.jobBuilderFactory.get("skippableExceptionDuringWriteSampleJob")
-                .start(step())
+                .start(stepSkipWrite())
                 .build();
     }
 
